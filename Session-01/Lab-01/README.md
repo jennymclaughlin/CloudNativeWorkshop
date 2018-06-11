@@ -6,7 +6,16 @@
 
 # Lab 01 - Clone Source and Push Apps
 
-## Clone Source
+## Clone Source (Java/Spring)
+
+1. Download the Java app  by cloning Git Repo or download the zip
+```
+
+> git clone https://github.com/pivotal-education/pcf-articulate-code 
+
+```
+
+## Clone Source (.NET/.NET Core - skip this section if you are a Java/Spring shop)
 
 1. Download the .NET app source code, by cloning Git Repo or download the zip
 ```
@@ -22,7 +31,7 @@
 ```
 
 
-## Push The .NET App
+## Push The .NET App (skip this section and the pushing .NET Core section if you are a Java/Spring shop)
 1. Unzip pcf-asp.net-mvc-attendees.zip, open command prompt and navigate to the app directory.
 ```
 > cd ~\pcf-asp.net-mvc-attendees\pcf-asp.net-mvc-attendees\PivotalWorkshop
