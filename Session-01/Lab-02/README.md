@@ -3,7 +3,7 @@
 [appManagerMySql]: img/appManagerMySql.png " "
 [vsCodeManifest]: img/vsCodeManifest.png " "
 
-# Lab 02 - Bind, Scale and HA
+# Lab 02 - Bind, Scale, HA and Blue-Green
 
 ## Bind MySql to App
 1. In AppsManager, click the Marketplace link in left box.
@@ -23,6 +23,14 @@
 1. Click on the Kill button on the app home page
 2. Watch the app node gets resurrected in AppsManager
 
+## Blue-Green deployment
+1. push the green version of the app with the green host name:
+greenHostname.productiondomain.com
+2. test greenHostname.productiondomain.com
+3. map production route www.productiondomain.com to the green app
+4. gradually increase the number of instances of the green app and decrease the number of instances of the blue app
+5. completely unmap production route from the blue app
+6. clean up the temp green route greenHostname.productiondomain.com
 
 ___
 
