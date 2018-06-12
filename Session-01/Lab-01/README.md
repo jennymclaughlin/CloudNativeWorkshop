@@ -15,9 +15,10 @@
 
 ```
 ## Push The Java/Spring App
-1. Open command prompt and navigate to the app directory.
+1. Open command prompt, navigate to the app directory and build.
 ```
 > cd ./pcf-articulate-code
+> mvn clean package
 ```
 2. Confirm the API target is set
 ```
