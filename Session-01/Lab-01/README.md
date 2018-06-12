@@ -28,8 +28,12 @@ User:           <STUDENT-X>
 Org:            West
 Space:          <STUDENT-X>
 ```
-3. Push the app
+3. Push the app: since we don't have the service defined yet, let's comment out the following two lines of the manifest file, then push
+
 ```
+  services:
+  - attendee-service
+  
 > cf push <javaSpringAppName>-studentX 
 ```
 
