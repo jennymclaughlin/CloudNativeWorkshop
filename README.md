@@ -18,9 +18,6 @@ It is easy to move toward a better way of building and operating your applicatio
   - Lab 1 - Clone Source and Push (20 mins)
   - Lab 2 - Bind, Scale, and HA (20 mins)
 
-#### Session 2: App Replatforming 
-  - Presentation: Spring Boot / Spring Cloud
-  - Presentation: App replatforming considerations
 
 
 
